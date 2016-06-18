@@ -9,10 +9,10 @@ namespace TentacleGuitar.Tabular
     {
         public int BPM { get; set; }
 
-        public int Capo { get; set; }
+        public Capo Capo { get; set; } = new Capo();
 
-        public List<Staff> Staff { get; set; }
+        public List<Staff> Staff { get; set; } = new List<Staff>();
 
-        public Dictionary<long, List<Note>> Notes { get; set; }
+        public Dictionary<long, List<Note>> Notes { get; set; } = new Dictionary<long, List<Note>>();
     }
 }
