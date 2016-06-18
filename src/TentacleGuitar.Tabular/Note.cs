@@ -15,7 +15,7 @@ namespace TentacleGuitar.Tabular
         /// <summary>
         /// 弦
         /// </summary>
-        public string String { get; set; }
+        public int String { get; set; }
 
         /// <summary>
         /// 持续时长
