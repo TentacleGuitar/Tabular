@@ -21,5 +21,10 @@ namespace TentacleGuitar.Tabular
         /// 持续时长
         /// </summary>
         public int Duration { get; set; }
+
+        /// <summary>
+        /// 演奏手法
+        /// </summary>
+        public PlayMode Mode { get; set; }
     }
 }
